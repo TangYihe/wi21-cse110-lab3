@@ -73,8 +73,107 @@
         <audio controls src="./Audio.mp3"></audio><br>
         Here's a sample video:<br>
         <video controls width="400" src="./Video.mp4"></video>
+        <br>
+        <canvas id="sampleCanvas" width="100" height="100" style="background: aqua;">
+        </canvas><br>
+        <svg width="200" height="200">
+            <circle cx=100 cy=100 r=70 fill="aqua"></circle>
+        </svg>
+
+        <hr>
+        <h3>Here's an interest collection form for me to know you better :)</h3>
+        <form>
+            <label for="name">Your name is:</label>
+            <input type="text"><br>
+            <label for="Season">Your month of birth is:</label>
+            <select>
+                <option value="">Select your birth-month</option>
+                <optgroup label="Spring">
+                    <option>Febuary</option>
+                    <option>March</option>
+                    <option>April</option>
+                </optgroup>
+                <optgroup label="Summer">
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                </optgroup>
+                <optgroup label="Autumn">
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                </optgroup>
+                <optgroup label="Winter">
+                    <option>November</option>
+                    <option>December</option>
+                    <option>January</option>
+                </optgroup>
+            </select><br>
+            <fieldset>
+                <legend>Are you a Dog or Cat person?</legend>
+                <input type="radio"><label>Cat</label>
+                <input type="radio"><label>Dog</label>
+            </fieldset><br>
+            <label>What kind of weather do you like the best?</label>
+            <input list="weather">
+            <datalist id="weather">
+                <option value="Sunny"></option>
+                <option value="Rainy"></option>
+                <option value="Cloudy"></option>
+                <option value="Snowy"></option>
+            </datalist><br>
+            <label>What is the time right now when you are filling this?</label>
+            <input type="time"><br>
+            <label>Which week in the year is your birthday in?</label>
+            <input type="week"><br>
+            <label>Pick your favorite color!</label>
+            <input type="color"><br>
+
+            <label>Finally, let me know about your 2020:</label><br>
+            <textarea></textarea>
+        </form>
 
 
+        <hr>
+        <table>
+            <colgroup>
+                <col>
+                <col span="2">
+            </colgroup>
+            <tr>
+                <th>Class</th>
+                <th>Units</th>
+                <th>Grading Option</th>
+            </tr>
+            <tr>
+                <td>CSE110</td>
+                <td>4</td>
+                <td>LETTER</td>
+            </tr>
+            <tr>
+                <td>CSE140</td>
+                <td>4</td>
+                <td>LETTER</td>
+            </tr>
+            <tr>
+                <td>CSE140L</td>
+                <td>2</td>
+                <td>LETTER</td>
+            </tr>
+            <tr>
+                <td>CSE95</td>
+                <td>2</td>
+                <td>PASS/NO PASS</td>
+            </tr>
+            <caption>My WI21 Courses</caption>
+        </table>
+        <details>
+            <summary>Quick question: How many units do I have in total?</summary>
+            12.
+        </details>
+        <br>
+        <button type="button">Back to top
+        </button>
 
         <footer>
             <p>Yihe Tang 2021.1.14</p>
