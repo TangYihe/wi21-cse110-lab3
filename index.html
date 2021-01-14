@@ -14,25 +14,35 @@
         <nav class="contents">
             <ul>
                 <li><a href="#">Introduction</a></li>
+                <li><a href="#">Media</a></li>
                 <li><a href="#">Interest</a></li>
                 <li><a href="#">Schedule</a></li>
             </ul>
         </nav>
 
+        <hr>
+
         <section>
         <h3>Brief Introduction of Myself</h3>
             <div class="randomintro">
                 <p>
-                    My name is <strong>Yihe</strong>. As a student, I'm in my third year at UCSD, double majoring in <b>Computer Science</b> and <b>Applied Math</b>.
+                    My name is <strong>Yihe</strong>.<br> As a student, I'm in my third year at UCSD, double majoring in <b>Computer Science</b> and <b>Applied Math</b>.
                 </p>
             </div>
             <figure>
-                <img src="challenge-accepted.png" style="width: 20%;">
+                <img src="./challenge-accepted.png" style="width: 15%;">
                 <figcaption>My favorite meme from CSE110 lecture.</figcaption>
             </figure>
 
             <p>
-                I'm currently learning 
+                I'm currently learning <em>Python</em>. Just starting but at least I can write <code>print("Hello World")</code>.
+                <pre>
+                    H E L L O
+                        W O R L D !
+                </pre>
+                Of course, I always use the official documentation during my learning process:<br> 
+                <iframe id="pythonDocs" title="Official Python Documents"
+                        width=800 height="300" src="https://docs.python.org/3/library/index.html"></iframe>
             </p>
 
             <p>
@@ -52,10 +62,22 @@
         </section>
 
         <hr>
+        
+        <h3>Some Media</h3>
+        Here's a sample picture:<br>
+        <picture>
+            <source srcset="./BOTW.jpg">
+            <img src="./BOTW.jpg" style="width: 20%;">
+        </picture><br>
+        Here's a sample audio:<br>
+        <audio controls src="./Audio.mp3"></audio><br>
+        Here's a sample video:<br>
+        <video controls width="400" src="./Video.mp4"></video>
+
 
 
         <footer>
-            <p>Yihe Tang 2021.1.12</p>
+            <p>Yihe Tang 2021.1.14</p>
         </footer>
     </body>
 </html>
