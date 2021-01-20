@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Yihe Tang's Personal Page</title>
-        <link href="blank.css" rel="stylesheet">
+        <link rel="stylesheet" href="./blank.css">
         <meta charset="UTF-8">
     </head>
 
@@ -11,7 +11,7 @@
         <h1>Yihe Tang' Homepage</h1>
         </header>
 
-        <h2>Contents</h2>
+        <h2 class="centerHeader">Contents</h2>
         <nav class="contents">
             <ul>
                 <li><a href="#">Introduction</a></li>
@@ -24,7 +24,7 @@
         <hr>
 
         <section>
-        <h3>Brief Introduction of Myself</h3>
+        <h3 class="centerHeader">Brief Introduction of Myself</h3>
             <div class="randomintro">
                 <p>
                     My name is <strong>Yihe</strong>.As a student, I'm in my third year at UCSD, double majoring in <b>Computer Science</b> and <b>Applied Math</b>.
@@ -41,8 +41,6 @@
                     H E L L O
                         W O R L D !
                 </pre>
-                Of course, I always use the official documentation during my learning process:<br> 
-                <iframe width=800 height="300" src="https://docs.python.org/3/library/index.html"></iframe>
 
             <p>
                 During my spare time, I love playing games and watch matches:
@@ -53,97 +51,14 @@
                 </ol>
 
             <aside>
-                <p>
+                <p class="sidenote">
                     Btw, I'm from China and this is my third year living in US. 
                 </p>
             </aside>
         </section>
 
         <hr>
-        
-        <h3>Some Media</h3>
-        Here's a sample picture:<br>
-        <picture>
-            <source srcset="./BOTW.jpg">
-            <img src="./BOTW.jpg" style="width: 20%;" alt="Zelda BOTW">
-        </picture><br>
-        Here's a sample audio:<br>
-        <audio controls src="./Audio.mp3"></audio><br>
-        Here's a sample video:<br>
-        <video controls width="400" src="./Video.mp4"></video>
-        <br>
-        <canvas width="100" height="100" style="background: aqua;">
-        </canvas><br>
-        <svg width="200" height="200">
-            <circle cx=100 cy=100 r=70 fill="aqua"></circle>
-        </svg>
-
-        <hr>
-        <h3>Here's an interest collection form for me to know you better :)</h3>
-        <form>
-            <label>Your name is:</label>
-            <input type="text"><br>
-            <label>Your month of birth is:</label>
-            <select>
-                <option value="">Select your birth-month</option>
-                <optgroup label="Spring">
-                    <option>Febuary</option>
-                    <option>March</option>
-                    <option>April</option>
-                </optgroup>
-                <optgroup label="Summer">
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                </optgroup>
-                <optgroup label="Autumn">
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                </optgroup>
-                <optgroup label="Winter">
-                    <option>November</option>
-                    <option>December</option>
-                    <option>January</option>
-                </optgroup>
-            </select><br>
-            <fieldset>
-                <legend>Are you a Dog or Cat person?</legend>
-                <input type="radio"><label>Cat</label>
-                <input type="radio"><label>Dog</label>
-            </fieldset><br>
-            <label>What kind of weather do you like the best?</label>
-            <input list="weather">
-            <datalist id="weather">
-                <option value="Sunny"></option>
-                <option value="Rainy"></option>
-                <option value="Cloudy"></option>
-                <option value="Snowy"></option>
-            </datalist><br>
-            <label>What is the time right now when you are filling this?</label>
-            <input type="time"><br>
-            <label>Which week in the year is your birthday in?</label>
-            <input type="week"><br>
-            <label>Pick your favorite color!</label>
-            <input type="color"><br>
-            <label>Let me know your email please!</label>
-            <input type="email" ><br>
-            <label>Choose your fortune number!</label>
-            <input type="number"><br>
-            <label>Can you give me your favorite website?</label>
-            <input type="url"><br>
-            <label>How's your mood today?</label>
-            Not good:(<input type="range"> Happy happy!!<br> 
-            <label>What would you like for tomorrow?</label><br>
-            <input type="checkbox"> Better better!
-            <input type="checkbox"> Tomorrow would be a new day!<br>
-            <label>Finally, let me know about your 2020:</label><br>
-            <textarea></textarea>
-        </form>
-
-
-        <hr>
-        <table>
+        <table id="classTable">
             <caption>My WI21 Courses</caption>
             <colgroup>
                 <col>
