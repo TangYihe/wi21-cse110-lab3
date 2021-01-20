@@ -3,10 +3,10 @@
 ### People Present:
 
 ### Issue No.
-[ ] Description:
-[ ] To-Do:
-[ ] Deadline(if applicable):
-[ ] Person in charge:
+- Description:
+- To-Do:
+- Deadline(if applicable):
+- Person in charge:
 
 ### Plans & Take-aways:
 
