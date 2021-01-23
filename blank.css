@@ -9,11 +9,12 @@ h1{
     text-align: center;
     font-family: "Hachi Maru Pop", cursive;
 }
-.centerHeader{
+h2.centerHeader{
     text-decoration: underline;
     text-decoration-color: rgb(111, 82, 167);
 }
 p[class="sidenote"]{
+    display:inline-block;
     text-align: right;
 }
 
@@ -25,12 +26,9 @@ p[class="sidenote"]{
     border-radius: 0.3cm;
     position: sticky;
 }
-a {
+a,pre {
     display: block;
     max-width: 50%;
-}
-pre {
-    display: block;
 }
 a:hover{
     background-color: rgba(105, 133, 218, 0.582);
