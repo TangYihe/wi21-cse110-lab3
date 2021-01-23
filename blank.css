@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "Hachi Maru Pop";
+    src: url(https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap);
+}
+h1{
+    text-align: center;
+    font-family: "Hachi Maru Pop", cursive;
+}
+.centerHeader{
+    text-decoration: underline;
+    text-decoration-color: rgb(111, 82, 167);
+}
+*{
+    background-color: seashell;
+}
+p[class="sidenote"]{
+    text-align: right;
+}
+
+/* appearance for the class schedule table */
+#classTable {
+    border-style: double;
+    border-color: #E1A2A1;
+    border-width: 0.1cm;
+    border-radius: 0.3cm;
+}
+
+pre:hover{
+    background-color: rgba(105, 133, 218, 0.582);
+}
+
+aside p{
+}
+
+tr > th{
+    text-decoration:#255;
+}
+
+section + hr{
+    width: 200%;
+}
+
+figure ~ p{
+    text-align: inherit;
+}
