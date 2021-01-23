@@ -2,6 +2,9 @@
     font-family: "Hachi Maru Pop";
     src: url(https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap);
 }
+*{
+    background-color: seashell;
+}
 h1{
     text-align: center;
     font-family: "Hachi Maru Pop", cursive;
@@ -9,9 +12,6 @@ h1{
 .centerHeader{
     text-decoration: underline;
     text-decoration-color: rgb(111, 82, 167);
-}
-*{
-    background-color: seashell;
 }
 p[class="sidenote"]{
     text-align: right;
@@ -23,23 +23,60 @@ p[class="sidenote"]{
     border-color: #E1A2A1;
     border-width: 0.1cm;
     border-radius: 0.3cm;
+    position: sticky;
 }
-
-pre:hover{
+a {
+    display: block;
+    max-width: 50%;
+}
+pre {
+    display: block;
+}
+a:hover{
     background-color: rgba(105, 133, 218, 0.582);
 }
 
+a:active{
+    color: rgb(34, 151, 10);
+}
+
 aside p{
+    margin-top: 10px;
+    margin-left: 100mm;
+    margin-right: 2vw;
+    margin-bottom: 1vh;
+    padding: 0 1cm 0 0;
+    color: hsl(276, 50%, 34%);
 }
 
 tr > th{
     text-decoration:#255;
+    color:hsla(0,100%,50%,0.7);
 }
 
-section + hr{
-    width: 200%;
+button + footer {
+    margin: 10px 0 10px 3vw;
 }
 
-figure ~ p{
-    text-align: inherit;
+div ~ figure{
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10vw;
+    padding-bottom: 10px;
+    padding-right: 0in;
+}
+
+.HelloHR{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+table{
+    display: grid;
+    max-width: 50%;
+    row-gap: 5px;
+    place-items: center;
+    justify-items: center;
 }
