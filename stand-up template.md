@@ -2,10 +2,12 @@
 ### Date&Time:
 ### People Present:
 
-### General current progress
+### General current progress:
+- Everyone comfortable with current workload?
+- Making progress as we planned? 
+  - If not, how would we change?
 
-
-### Issue No.
+### Issue No. 
 - Description:
 - Current progress:
 - Difficulties/stucked on:
